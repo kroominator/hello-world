@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="logo" onclick="window.location.href='portfolio.html'"></div>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="indexmain">
+        <!--        code from: http://editagud.com/professional%20profile/index.html#portfolio-->
+        <div class="sides">
+            <div id="leftside">
+                <div id="leftimg">
+                </div>
+            </div>
+            <div id="rightside">
+                <div id="rightimg">
+                </div>
+
+            </div>
+        </div>
+        <a href="portfolio.html" class="white-mode">PORTFOLIO</a>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://www.linkedin.com/in/gintare-kruminaite-3372a364/" target="_blank">
+                <div class="linkedin_button"></div>
+            </a>
+        </nav>
+    </footer>
+    <script src="JS.js"></script>
+</body>
+
+</html>
